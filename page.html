@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>student application form</legend>
+            <label for="">First name:</label><br>
+            <input type="text" placeholders="enter first name" pattern="[a-Az-Z]" minlength="4" maxlength="7"/>
+            <br/>
+            <label for="">Last name:</label><br>
+            <input type="text" palceholder="enter last name"/>
+            <br/>
+            <label for="">DOB:</label><br>
+            <input type="date"/>
+            <br/>
+            <label for="">gender:</label>
+            <input type="radio" name="gender"/> male
+            <input type="radio" name="gender"/>female <br /><br />
+            <label for="">phone number:</label><br>
+            <input type="tel" placeholder="91+"/>
+            <br/>
+            <label for="">email:</label><br>
+            <input type="email" placeholder="abc@gmail.com"/>
+            <br/>
+            <label for="">address:</label><br>
+            <input type="text" palceholder="address"/>
+            <br/>
+            <label for="">nationality:</label>
+            <select>
+                <option value="">choose nationality</option>
+                <option value="">hindu</option>
+                <option value="">muslim</option>
+                <option value="">cristian</option>
+            </select>
+            <br><br/>
+            <label for="">mother tongue:</label><br>
+            <input type="checkbox"/>telugu<input type="checkbox"/>english
+            <input type="checkbox"/>hindi<input type="checkbox"/>urdu
+            <input type="checkbox"/>tamil<input type="checkbox"/>kannada
+            <br/>
+            <label for="">transfor certificate(TC):</label>
+            <input type="file"/><br><br/>
+            <input type="submit"/>
+            <input type="button" value="cancel"/>
+        </fieldset>
+    </form>
+</body>
+</html>
